@@ -1,0 +1,80 @@
+/**
+ * Import base style
+ */
+@import "../mall/base.less";
+ 
+/**
+ * Here comes specific style for a certain test program.
+ */
+
+ #chatwindowWrapper{
+ width: 800px;
+overflow: auto;
+ position: relative;
+ }
+
+ #chatwindow
+ {
+  width: 75%;
+  float: left;
+ 	background-color: white;
+	height: 300px;
+	border: 1px solid black;
+  overflow-y: scroll;
+ }
+
+ #userlist
+ {
+ float: left;
+ width: 24%;
+  background-color: white;
+  height: 300px;
+  border: 1px solid black;
+  overflow-y: scroll;
+ }
+
+  #chatwindow .row
+  {
+  	margin-left: 2px;
+  	margin-top: 2px;
+  	color: black;
+  	font-size: 14px;
+  	font-family: Verdana;
+  }
+
+  #chatwindow .red
+  {
+    color: red;
+  }
+
+  #chatwindow .green
+  {
+    color: green;
+  }
+
+#buttonswrapper{
+  float: left;
+}
+
+.userlink{
+  border: none;
+  background: none;
+}
+
+.acceptbox
+{
+font-weight: bold;
+font-size: small;
+  width: 150px;
+  border: 1px solid black;
+}
+
+.acceptbutton, .denybutton
+{
+  font-weight: bold;
+  font-size: medium;
+  color: green;
+  font-family: Arial;
+}
+
+canvas{border:1px solid #999;}
